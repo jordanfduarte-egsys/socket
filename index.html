@@ -12,7 +12,7 @@
 <script>
     let input = document.getElementById('input');
     let response = document.getElementById('response');
-    const socket = new WebSocket('ws://192.168.5.107:9980');
+    const socket = new WebSocket('ws://localhost:9980');
 
     // Ao estabelecer a conexão enviamos uma mensagem pro servidor
     socket.addEventListener('open', function () {
